@@ -92,3 +92,7 @@ section .color:nth-child(3) {
     height: 4px;
     background: #fff;
 }
+
+a .links {
+    color: #fff;
+}
