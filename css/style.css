@@ -22,7 +22,7 @@ section {
 
 section .color {
     position: absolute;
-    filter: blur(150px)
+    filter: blur(350px)
 }
 
 section .color:nth-child(1) {
