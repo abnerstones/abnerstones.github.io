@@ -93,6 +93,6 @@ section .color:nth-child(3) {
     background: #fff;
 }
 
-a .links {
+a {
     color: white;
 }
