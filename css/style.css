@@ -1,27 +1,94 @@
-/* Add a black background color to the top navigation */
-.topnav {
-    background-color: #333;
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
     overflow: hidden;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: #04AA6D;
-    color: white;
-  }
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom,#f1f4f9,#dff1ff);
+}
+
+section .color {
+    position: absolute;
+    filter: blur(150px)
+}
+
+section .color:nth-child(1) {
+    top: -200px;
+    width: 600px;
+    height: 600px;
+    background: #ff359b;
+}
+
+section .color:nth-child(2) {
+    bottom: -180px;
+    left: 250px;
+    width: 500px;
+    height: 500px;
+    background: #fffd87;
+}
+
+section .color:nth-child(3) {
+    bottom: 20px;
+    left: 245px;
+    width: 300px;
+    height: 300px;
+    background: #00d2ff;
+}
+
+.box {
+    position: relative;
+}
+
+.container {
+    position: relative;
+    width: 400px;
+    min-height: 400px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.main {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+}
+
+.main h1 {
+    position: relative;
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+.main h1::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 80px;
+    height: 4px;
+    background: #fff;
+}
