@@ -221,7 +221,7 @@ a {
     align-self: center;
     min-height: 35px;
     font-size: 24px;
-    color: gray;
+    color: black;
 }
 
 .notice {
@@ -229,7 +229,7 @@ a {
     position: relative;
     align-self: center;
     min-height: 35px;
-    font-size: 24px;
+    font-size: 12px;
     color: gray;
 }
 
