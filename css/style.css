@@ -197,3 +197,29 @@ section .color:nth-child(3) {
     min-width: 196px;
   }
 }
+
+a {
+    text-align: center;
+    position: relative;
+    align-self: center;
+    text-decoration: none;
+    
+}
+
+.title {
+    text-align: center;
+    position: relative;
+    align-self: center;
+    min-height: 300px;
+    font-size: 24px;
+    color: aliceblue;
+}
+
+.names {
+    text-align: center;
+    position: relative;
+    align-self: center;
+    min-height: 35px;
+    font-size: 24px;
+    color: gray;
+}
