@@ -177,8 +177,8 @@ body {
     0 0 60px #9c08ff;
 }
 
-.container .btn:nth-child(6):before, 
-.container .btn:nth-child(6):after {
+.container .btn-home:nth-child(6):before, 
+.container .btn-home:nth-child(6):after {
     background: #9c08ff;
     box-shadow: 0 0 5px #9c08ff,
     0 0 15px #9c08ff,
