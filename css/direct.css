@@ -190,7 +190,7 @@ body {
     transition-delay: 0s;
 }
 
-.container .btn-home::after {
+.extra .btn-home::after {
     content: '';
     position: absolute;
     left: 50%;
