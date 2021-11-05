@@ -29,7 +29,6 @@ body {
     width: 155px;
     height: 50px;
     margin: 20px;
-    top: 30;
 }
 
 .extra .btn-home {
@@ -37,7 +36,6 @@ body {
     width: 155px;
     height: 50px;
     margin: 20px;
-    top: 1000;
 }
 
 
@@ -91,6 +89,7 @@ body {
     overflow: hidden;
     transition: 0.6s;
     backdrop-filter: blur(15px);
+    top: 100;
 }
 
 .container .btn:hover a {
