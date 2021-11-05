@@ -24,6 +24,13 @@ body {
     justify-content: space-around;
 }
 
+.extra {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .container .btn {
     position: relative;
     width: 155px;
