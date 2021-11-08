@@ -29,7 +29,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    bottom: 0;
+    bottom: 1000;
 }
 
 .container .btn {
