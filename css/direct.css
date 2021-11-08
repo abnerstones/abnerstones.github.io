@@ -29,6 +29,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    bottom: 0;
 }
 
 .container .btn {
